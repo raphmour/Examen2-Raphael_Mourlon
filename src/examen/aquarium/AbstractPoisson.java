@@ -36,7 +36,7 @@ public abstract class AbstractPoisson {
     }
 
     public void nager() {
-        System.out.println(nom + " nage dans l'eau.");
+        System.out.println(this + " nage dans l'aquarium.");
     }
 
     public abstract void manger();
