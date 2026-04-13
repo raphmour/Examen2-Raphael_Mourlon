@@ -1,6 +1,6 @@
 package examen.aquarium;
 
-public class PoissonClown extends Poisson {
+public class PoissonClown extends AbstractPoisson {
 
     public PoissonClown(String nom, int age, String couleur) {
         super(nom, age, couleur);

@@ -7,9 +7,9 @@ public class Main {
 
         Aquarium aquarium = new Aquarium(5);
 
-        Poisson p1 = new PoissonClown("Nemo", 2, "orange");
-        Poisson p2 = new Piranha("Terreur", 3, "bleu");
-        Poisson p3 = new PoissonVolant("Superman", 7, "rouge");
+        AbstractPoisson p1 = new PoissonClown("Nemo", 2, "orange");
+        AbstractPoisson p2 = new Piranha("Terreur", 3, "bleu");
+        AbstractPoisson p3 = new PoissonVolant("Superman", 7, "rouge");
 
         aquarium.ajouterPoisson(p1);
         aquarium.ajouterPoisson(p2);
